@@ -54,7 +54,7 @@ clean :
 
 # アーカイブファイルの生成
 $(TARGET_FILE) : $(OBJS)
-	$(AR) -rs ${TARGET_FILE} $(OBJS) $(LIBS)
+	$(AR) -rs ${TARGET_FILE} $(OBJS)
 
 # *.c ソースのコンパイル
 $(INTERMEDIATE_DIR)/%.o : %.c Makefile $(HEADER_SRCS)

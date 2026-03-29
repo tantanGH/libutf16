@@ -3,8 +3,6 @@
 #include <string.h>
 #include "utf16_cp932.h"
 
-extern uint16_t utf16_to_cp932_map[ 0x10000 ];
-
 //
 //  utf-16 to cp932
 //
