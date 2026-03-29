@@ -4,6 +4,12 @@ UTF-16 to CP932 string conversion library for elf2x68k
 MP3のID3tagなどで使われているUTF-16形式の文字列をCP932(ShiftJIS)に変換するためのライブラリです。
 ルックアップテーブルによる実装なのでそれなりにメモリを使います。(テーブルサイズ：128KB)
 
+提供される関数は一つだけです。
+
+```
+void utf16_to_cp932(uint8_t* cp932_buffer, size_t cp932_buffer_bytes, const uint8_t* utf16_buffer, size_t utf16_buffer_bytes);
+```
+
 使う時は、サブモジュールとして組み込むのが簡単です。例えばプロジェクト直下にて以下を実行します。
 
 ```
