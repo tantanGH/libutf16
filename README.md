@@ -35,7 +35,7 @@ my_app/
 
 ヘッダー検索パスとライブラリ検索パスをMakefile内で
 ```
--I../libs/libj/include
--L../libs/libj/lib
+-I../libs/libutf16/include
+-L../libs/libutf16/lib
 ```
 のように指定し、`-lutf16` でリンクできます。
