@@ -68,7 +68,7 @@ convert(0xfb40, 0xfbff)
 convert(0xfc40, 0xfcff)
 
 print("; UTF-16 to CP932 code mapping")
-print(".align 2")
+print(".align 4")
 print(".globl _utf16_to_cp932_map")
 print(".data")
 print("_utf16_to_cp932_map:")

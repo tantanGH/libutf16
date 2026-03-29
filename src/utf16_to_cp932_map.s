@@ -1,5 +1,5 @@
 ; UTF-16 to CP932 code mapping
-.align 2
+.align 4
 .globl _utf16_to_cp932_map
 .data
 _utf16_to_cp932_map:
