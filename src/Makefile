@@ -29,7 +29,7 @@ CFLAGS = $(COMMON_FLAGS)
 C_SRCS = utf16_cp932.c
 
 # *.s ソースファイル
-ASM_SRCS = utf16_cp932_map.s
+ASM_SRCS = utf16_to_cp932_map.s
 
 # *.h ヘッダーファイル
 HEADER_SRCS = ../include/utf16_cp932.h
