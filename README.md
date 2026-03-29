@@ -7,6 +7,8 @@ MP3のID3tagなどで使われているUTF-16形式の文字列をelf2x68k環境
 提供される関数は一つだけです。
 
 ```
+#include <utf16_cp932.h>
+
 void utf16_to_cp932(uint8_t* cp932_buffer, size_t cp932_buffer_bytes, const uint8_t* utf16_buffer, size_t utf16_buffer_bytes);
 ```
 
