@@ -24,7 +24,7 @@ my_app/
 ├── .gitmodules
 ├── libs/
 │   └── libutf16/
-│       ├── include/
+│       ├── include/utf16_cp932.h
 │       └── lib/libutf16.a
 └── src/
     ├── main.c
